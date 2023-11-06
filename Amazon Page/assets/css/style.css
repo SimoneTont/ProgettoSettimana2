@@ -1,1 +1,144 @@
-/* Your styles here */
+/* html*/
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Body*/
+body
+{
+    background-color: #E9EDEE;
+}
+/*Classi*/
+.SfondoBluScuro
+{
+    background-color: #222F3F;
+}
+.Centrale
+{
+    text-align: center;
+}
+.SfondoBlu
+{
+    background-color: #364759;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.Bianco
+{
+    color: white;
+}
+.Arrotondato
+{
+    border-radius: 10%;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    width: 20em;
+    height: 20rem;
+    display: inline;
+}
+.SfondoBianco
+{
+    background-color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/*header*/
+header p
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #F56600;
+}
+header img
+{
+    width: 10rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+/*nav*/
+nav a
+{
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+a
+{
+    text-decoration: none;
+}
+/*article*/
+.SfondoFloreale
+{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-image: url(../images/bg-image.png);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+article h1
+{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+section div
+{
+    margin-top: 1rem;
+}
+section div img
+{
+    box-shadow: grey 0.5rem 0.5rem 0.5rem;
+}
+section h6
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: inline;
+}
+section p
+{
+    font-weight: bold;
+    margin-right: 1rem;
+    display: inline;
+}
+section a
+{
+    font-weight: bold;
+    color: #0E525F;
+}
+section img
+{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 90rem;
+    margin-top: 2rem;
+}
+/*footer*/
+footer
+{
+    margin-top: 2rem;
+}
+footer a
+{
+    text-decoration: underline;
+    color:white
+}
+footer img
+{
+    width: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
