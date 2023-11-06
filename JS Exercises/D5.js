@@ -157,6 +157,37 @@ let lettere=[]
 let alfabeto="abcdefghijklmnopqrstuvwxyz"
 lettere = alfabeto.split('');
 console.log(lettere)
+for (i=0; i<lettere.length; i++)
+{
+  switch (lettere[i])
+  {
+    case "g":
+    numeriAlfabeto.push(("g="+(i+1)))
+    break;
+    case "n":
+    numeriAlfabeto.push(("n="+(i+1)))
+    break;
+    case "u":
+    numeriAlfabeto.push(("u="+(i+1)))
+    break;
+    case "z":
+    numeriAlfabeto.push(("z="+(i+1)))
+    break;
+    case "d":
+    numeriAlfabeto.push(("d="+(i+1)))
+    break;
+  }
+}
+console.log(numeriAlfabeto)
+//Versione doppio ciclo for
+/*
+console.log("Esercizio 10")
+const charactersArray = ['g', 'n', 'u', 'z', 'd']
+let numeriAlfabeto =[]
+let lettere=[]
+let alfabeto="abcdefghijklmnopqrstuvwxyz"
+lettere = alfabeto.split('');
+console.log(lettere)
 for (i=0; i<charactersArray.length; i++)
 {
   for (c=0; c<lettere.length; c++)
@@ -168,3 +199,4 @@ for (i=0; i<charactersArray.length; i++)
   }
 }
 console.log(numeriAlfabeto)
+*/
